@@ -1,0 +1,41 @@
+configVersion: 1.0.0
+componentName: BSP_SAM_E54_DIM_MC_Board
+coreVersion: 5.8.4
+device: ATSAME54P20A
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: BSP_SAM_E54_DIM_MC_Board
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.22.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: BSP_SAM_E54_DIM_MC_Board
+          x: '162'
+          y: '49'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    BSP_BOARD_SEL:
+      attributes:
+        id: BSP_BOARD_SEL
+      children:
+      - children:
+        - attributes:
+            value: MCLV-48V-300W
+          type: User
+        type: Values
+      type: Combo
+  userData: {}

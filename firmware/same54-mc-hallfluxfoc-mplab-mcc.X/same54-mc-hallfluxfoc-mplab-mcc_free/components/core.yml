@@ -1,0 +1,7168 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.4
+device: ATSAME54P20A
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.2
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition: {}
+  symbols:
+    ADC0_CLOCK_ENABLE:
+      attributes:
+        id: ADC0_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: adc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC0_CLOCK_FREQUENCY:
+      attributes:
+        id: ADC0_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    ADC0_RESRDY_INTERRUPT_ENABLE:
+      attributes:
+        id: ADC0_RESRDY_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: adc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC0_RESRDY_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: ADC0_RESRDY_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC0_RESRDY_INTERRUPT_HANDLER:
+      attributes:
+        id: ADC0_RESRDY_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: adc0
+            value: ADC0_RESRDY_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    ADC0_RESRDY_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: ADC0_RESRDY_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: adc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC1_CLOCK_ENABLE:
+      attributes:
+        id: ADC1_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: adc1
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC1_CLOCK_FREQUENCY:
+      attributes:
+        id: ADC1_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EIC_CLOCK_ENABLE:
+      attributes:
+        id: EIC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_CLOCK_FREQUENCY:
+      attributes:
+        id: EIC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EVSYS_0_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_0_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_0_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_0_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EVSYS_1_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_1_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_1_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_1_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_11_CHEN:
+      attributes:
+        id: GCLK_ID_11_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_11_FREQ:
+      attributes:
+        id: GCLK_ID_11_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_12_CHEN:
+      attributes:
+        id: GCLK_ID_12_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_12_FREQ:
+      attributes:
+        id: GCLK_ID_12_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_23_CHEN:
+      attributes:
+        id: GCLK_ID_23_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_23_FREQ:
+      attributes:
+        id: GCLK_ID_23_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_25_CHEN:
+      attributes:
+        id: GCLK_ID_25_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_25_FREQ:
+      attributes:
+        id: GCLK_ID_25_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '120000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_25_GENSEL:
+      attributes:
+        id: GCLK_ID_25_GENSEL
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_ID_40_CHEN:
+      attributes:
+        id: GCLK_ID_40_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_40_FREQ:
+      attributes:
+        id: GCLK_ID_40_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_41_CHEN:
+      attributes:
+        id: GCLK_ID_41_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_41_FREQ:
+      attributes:
+        id: GCLK_ID_41_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_4_CHEN:
+      attributes:
+        id: GCLK_ID_4_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_4_FREQ:
+      attributes:
+        id: GCLK_ID_4_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCLK_APBA_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBA_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xc7ff'
+          type: Dynamic
+        type: Values
+      type: String
+    MCLK_APBB_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBB_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1ead6'
+          type: Dynamic
+        type: Values
+      type: String
+    MCLK_APBD_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBD_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x180'
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_119_0_ENABLE:
+      attributes:
+        id: NVIC_119_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_119_0_HANDLER:
+      attributes:
+        id: NVIC_119_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: ADC0_RESRDY_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_119_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_119_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_54_0_ENABLE:
+      attributes:
+        id: NVIC_54_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_54_0_HANDLER:
+      attributes:
+        id: NVIC_54_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM2_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_54_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_54_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_55_0_ENABLE:
+      attributes:
+        id: NVIC_55_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_55_0_HANDLER:
+      attributes:
+        id: NVIC_55_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM2_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_55_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_55_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_56_0_ENABLE:
+      attributes:
+        id: NVIC_56_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_56_0_HANDLER:
+      attributes:
+        id: NVIC_56_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM2_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_56_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_56_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_57_0_ENABLE:
+      attributes:
+        id: NVIC_57_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_57_0_HANDLER:
+      attributes:
+        id: NVIC_57_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM2_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_57_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_57_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_85_0_ENABLE:
+      attributes:
+        id: NVIC_85_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_85_0_HANDLER:
+      attributes:
+        id: NVIC_85_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_OTHER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_85_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_85_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_86_0_ENABLE:
+      attributes:
+        id: NVIC_86_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_86_0_HANDLER:
+      attributes:
+        id: NVIC_86_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_86_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_86_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_87_0_ENABLE:
+      attributes:
+        id: NVIC_87_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_87_0_HANDLER:
+      attributes:
+        id: NVIC_87_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_87_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_87_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_88_0_ENABLE:
+      attributes:
+        id: NVIC_88_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_88_0_HANDLER:
+      attributes:
+        id: NVIC_88_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_88_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_88_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_ENABLE:
+      attributes:
+        id: NVIC_89_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_HANDLER:
+      attributes:
+        id: NVIC_89_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC3_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_89_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_89_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_ENABLE:
+      attributes:
+        id: NVIC_90_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_HANDLER:
+      attributes:
+        id: NVIC_90_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC4_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_90_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_90_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_ENABLE:
+      attributes:
+        id: NVIC_91_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_HANDLER:
+      attributes:
+        id: NVIC_91_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC5_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_91_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_91_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_102_MODE:
+      attributes:
+        id: PIN_102_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_102_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_102_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_103_MODE:
+      attributes:
+        id: PIN_103_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_103_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_103_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_123_MODE:
+      attributes:
+        id: PIN_123_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_123_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_123_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_125_MODE:
+      attributes:
+        id: PIN_125_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PIN_125_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_125_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_19_MODE:
+      attributes:
+        id: PIN_19_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PIN_19_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_19_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_33_MODE:
+      attributes:
+        id: PIN_33_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PIN_33_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_33_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_47_MODE:
+      attributes:
+        id: PIN_47_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_47_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_47_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_48_MODE:
+      attributes:
+        id: PIN_48_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_48_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_48_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_52_MODE:
+      attributes:
+        id: PIN_52_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_52_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_52_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_55_MODE:
+      attributes:
+        id: PIN_55_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_55_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_55_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_56_MODE:
+      attributes:
+        id: PIN_56_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_56_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_56_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_58_MODE:
+      attributes:
+        id: PIN_58_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_58_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_58_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_59_MODE:
+      attributes:
+        id: PIN_59_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_59_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_59_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_60_MODE:
+      attributes:
+        id: PIN_60_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_60_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_60_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PIN_61_MODE:
+      attributes:
+        id: PIN_61_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_61_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_61_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PIN_68_MODE:
+      attributes:
+        id: PIN_68_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_68_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_68_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: G
+          type: User
+        type: Values
+      type: String
+    PIN_70_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_70_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: G
+          type: User
+        type: Values
+      type: String
+    PIN_71_MODE:
+      attributes:
+        id: PIN_71_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_71_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_71_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: G
+          type: User
+        type: Values
+      type: String
+    PIN_9_MODE:
+      attributes:
+        id: PIN_9_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PIN_9_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_9_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_0:
+      attributes:
+        id: PORT_GROUP_0_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_1:
+      attributes:
+        id: PORT_GROUP_0_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA01
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_10:
+      attributes:
+        id: PORT_GROUP_0_PAD_10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA10
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_11:
+      attributes:
+        id: PORT_GROUP_0_PAD_11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA11
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_12:
+      attributes:
+        id: PORT_GROUP_0_PAD_12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA12
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_13:
+      attributes:
+        id: PORT_GROUP_0_PAD_13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA13
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_14:
+      attributes:
+        id: PORT_GROUP_0_PAD_14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA14
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_15:
+      attributes:
+        id: PORT_GROUP_0_PAD_15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA15
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_16:
+      attributes:
+        id: PORT_GROUP_0_PAD_16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA16
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_17:
+      attributes:
+        id: PORT_GROUP_0_PAD_17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA17
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_18:
+      attributes:
+        id: PORT_GROUP_0_PAD_18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA18
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_19:
+      attributes:
+        id: PORT_GROUP_0_PAD_19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA19
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_2:
+      attributes:
+        id: PORT_GROUP_0_PAD_2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA02
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_20:
+      attributes:
+        id: PORT_GROUP_0_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_21:
+      attributes:
+        id: PORT_GROUP_0_PAD_21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA21
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_22:
+      attributes:
+        id: PORT_GROUP_0_PAD_22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA22
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_23:
+      attributes:
+        id: PORT_GROUP_0_PAD_23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA23
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_24:
+      attributes:
+        id: PORT_GROUP_0_PAD_24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA24
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_25:
+      attributes:
+        id: PORT_GROUP_0_PAD_25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA25
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_27:
+      attributes:
+        id: PORT_GROUP_0_PAD_27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA27
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_3:
+      attributes:
+        id: PORT_GROUP_0_PAD_3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA03
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_30:
+      attributes:
+        id: PORT_GROUP_0_PAD_30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA30
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_31:
+      attributes:
+        id: PORT_GROUP_0_PAD_31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA31
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_4:
+      attributes:
+        id: PORT_GROUP_0_PAD_4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA04
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_5:
+      attributes:
+        id: PORT_GROUP_0_PAD_5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA05
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_6:
+      attributes:
+        id: PORT_GROUP_0_PAD_6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA06
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_7:
+      attributes:
+        id: PORT_GROUP_0_PAD_7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA07
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_8:
+      attributes:
+        id: PORT_GROUP_0_PAD_8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA08
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_9:
+      attributes:
+        id: PORT_GROUP_0_PAD_9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA09
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG0:
+      attributes:
+        id: PORT_GROUP_0_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG1:
+      attributes:
+        id: PORT_GROUP_0_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG10:
+      attributes:
+        id: PORT_GROUP_0_PINCFG10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG11:
+      attributes:
+        id: PORT_GROUP_0_PINCFG11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG12:
+      attributes:
+        id: PORT_GROUP_0_PINCFG12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG13:
+      attributes:
+        id: PORT_GROUP_0_PINCFG13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG14:
+      attributes:
+        id: PORT_GROUP_0_PINCFG14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG15:
+      attributes:
+        id: PORT_GROUP_0_PINCFG15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG16:
+      attributes:
+        id: PORT_GROUP_0_PINCFG16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG17:
+      attributes:
+        id: PORT_GROUP_0_PINCFG17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG18:
+      attributes:
+        id: PORT_GROUP_0_PINCFG18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG19:
+      attributes:
+        id: PORT_GROUP_0_PINCFG19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG2:
+      attributes:
+        id: PORT_GROUP_0_PINCFG2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG20:
+      attributes:
+        id: PORT_GROUP_0_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG21:
+      attributes:
+        id: PORT_GROUP_0_PINCFG21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG22:
+      attributes:
+        id: PORT_GROUP_0_PINCFG22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG23:
+      attributes:
+        id: PORT_GROUP_0_PINCFG23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG24:
+      attributes:
+        id: PORT_GROUP_0_PINCFG24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG25:
+      attributes:
+        id: PORT_GROUP_0_PINCFG25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG27:
+      attributes:
+        id: PORT_GROUP_0_PINCFG27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG3:
+      attributes:
+        id: PORT_GROUP_0_PINCFG3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG30:
+      attributes:
+        id: PORT_GROUP_0_PINCFG30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG31:
+      attributes:
+        id: PORT_GROUP_0_PINCFG31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG4:
+      attributes:
+        id: PORT_GROUP_0_PINCFG4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG5:
+      attributes:
+        id: PORT_GROUP_0_PINCFG5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG6:
+      attributes:
+        id: PORT_GROUP_0_PINCFG6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG7:
+      attributes:
+        id: PORT_GROUP_0_PINCFG7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG8:
+      attributes:
+        id: PORT_GROUP_0_PINCFG8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG9:
+      attributes:
+        id: PORT_GROUP_0_PINCFG9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_10_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_10_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_11_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_11_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_12_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_12_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_13_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_13_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_14_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_14_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_15_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_15_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_16_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_16_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_17_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_17_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_18_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_18_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_19_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_19_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_21_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_21_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_22_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_22_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_23_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_23_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_24_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_24_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_25_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_25_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_27_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_27_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_2_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_2_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_30_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_30_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_31_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_31_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_3_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_3_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_4_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_4_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_5_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_5_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_6_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_6_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_7_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_7_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_8_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_8_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_9_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_9_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PMUX0:
+      attributes:
+        id: PORT_GROUP_0_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX1:
+      attributes:
+        id: PORT_GROUP_0_PMUX1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX10:
+      attributes:
+        id: PORT_GROUP_0_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX11:
+      attributes:
+        id: PORT_GROUP_0_PMUX11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX12:
+      attributes:
+        id: PORT_GROUP_0_PMUX12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX13:
+      attributes:
+        id: PORT_GROUP_0_PMUX13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX15:
+      attributes:
+        id: PORT_GROUP_0_PMUX15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x7'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX2:
+      attributes:
+        id: PORT_GROUP_0_PMUX2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX3:
+      attributes:
+        id: PORT_GROUP_0_PMUX3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX4:
+      attributes:
+        id: PORT_GROUP_0_PMUX4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX5:
+      attributes:
+        id: PORT_GROUP_0_PMUX5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX6:
+      attributes:
+        id: PORT_GROUP_0_PMUX6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x22'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX7:
+      attributes:
+        id: PORT_GROUP_0_PMUX7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX8:
+      attributes:
+        id: PORT_GROUP_0_PMUX8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX9:
+      attributes:
+        id: PORT_GROUP_0_PMUX9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x6'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_DIR:
+      attributes:
+        id: PORT_GROUP_1_DIR
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xc000000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_OUT:
+      attributes:
+        id: PORT_GROUP_1_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_0:
+      attributes:
+        id: PORT_GROUP_1_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_1:
+      attributes:
+        id: PORT_GROUP_1_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB01
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_10:
+      attributes:
+        id: PORT_GROUP_1_PAD_10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB10
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_11:
+      attributes:
+        id: PORT_GROUP_1_PAD_11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB11
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_12:
+      attributes:
+        id: PORT_GROUP_1_PAD_12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB12
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_13:
+      attributes:
+        id: PORT_GROUP_1_PAD_13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB13
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_14:
+      attributes:
+        id: PORT_GROUP_1_PAD_14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB14
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_15:
+      attributes:
+        id: PORT_GROUP_1_PAD_15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB15
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_16:
+      attributes:
+        id: PORT_GROUP_1_PAD_16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB16
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_17:
+      attributes:
+        id: PORT_GROUP_1_PAD_17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB17
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_18:
+      attributes:
+        id: PORT_GROUP_1_PAD_18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB18
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_19:
+      attributes:
+        id: PORT_GROUP_1_PAD_19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB19
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_2:
+      attributes:
+        id: PORT_GROUP_1_PAD_2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB02
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_20:
+      attributes:
+        id: PORT_GROUP_1_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_21:
+      attributes:
+        id: PORT_GROUP_1_PAD_21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB21
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_22:
+      attributes:
+        id: PORT_GROUP_1_PAD_22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB22
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_23:
+      attributes:
+        id: PORT_GROUP_1_PAD_23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB23
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_24:
+      attributes:
+        id: PORT_GROUP_1_PAD_24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB24
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_25:
+      attributes:
+        id: PORT_GROUP_1_PAD_25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB25
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_26:
+      attributes:
+        id: PORT_GROUP_1_PAD_26
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB26
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_27:
+      attributes:
+        id: PORT_GROUP_1_PAD_27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB27
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_28:
+      attributes:
+        id: PORT_GROUP_1_PAD_28
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB28
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_29:
+      attributes:
+        id: PORT_GROUP_1_PAD_29
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB29
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_3:
+      attributes:
+        id: PORT_GROUP_1_PAD_3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB03
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_30:
+      attributes:
+        id: PORT_GROUP_1_PAD_30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB30
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_31:
+      attributes:
+        id: PORT_GROUP_1_PAD_31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB31
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_4:
+      attributes:
+        id: PORT_GROUP_1_PAD_4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB04
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_5:
+      attributes:
+        id: PORT_GROUP_1_PAD_5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB05
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_6:
+      attributes:
+        id: PORT_GROUP_1_PAD_6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB06
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_7:
+      attributes:
+        id: PORT_GROUP_1_PAD_7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB07
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_8:
+      attributes:
+        id: PORT_GROUP_1_PAD_8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB08
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_9:
+      attributes:
+        id: PORT_GROUP_1_PAD_9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB09
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG0:
+      attributes:
+        id: PORT_GROUP_1_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG1:
+      attributes:
+        id: PORT_GROUP_1_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG10:
+      attributes:
+        id: PORT_GROUP_1_PINCFG10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG11:
+      attributes:
+        id: PORT_GROUP_1_PINCFG11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG12:
+      attributes:
+        id: PORT_GROUP_1_PINCFG12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG13:
+      attributes:
+        id: PORT_GROUP_1_PINCFG13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG14:
+      attributes:
+        id: PORT_GROUP_1_PINCFG14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG15:
+      attributes:
+        id: PORT_GROUP_1_PINCFG15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG16:
+      attributes:
+        id: PORT_GROUP_1_PINCFG16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG17:
+      attributes:
+        id: PORT_GROUP_1_PINCFG17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG18:
+      attributes:
+        id: PORT_GROUP_1_PINCFG18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG19:
+      attributes:
+        id: PORT_GROUP_1_PINCFG19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG2:
+      attributes:
+        id: PORT_GROUP_1_PINCFG2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG20:
+      attributes:
+        id: PORT_GROUP_1_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG21:
+      attributes:
+        id: PORT_GROUP_1_PINCFG21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG22:
+      attributes:
+        id: PORT_GROUP_1_PINCFG22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG23:
+      attributes:
+        id: PORT_GROUP_1_PINCFG23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG24:
+      attributes:
+        id: PORT_GROUP_1_PINCFG24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG25:
+      attributes:
+        id: PORT_GROUP_1_PINCFG25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG26:
+      attributes:
+        id: PORT_GROUP_1_PINCFG26
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG27:
+      attributes:
+        id: PORT_GROUP_1_PINCFG27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG28:
+      attributes:
+        id: PORT_GROUP_1_PINCFG28
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG29:
+      attributes:
+        id: PORT_GROUP_1_PINCFG29
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG3:
+      attributes:
+        id: PORT_GROUP_1_PINCFG3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG30:
+      attributes:
+        id: PORT_GROUP_1_PINCFG30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG31:
+      attributes:
+        id: PORT_GROUP_1_PINCFG31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG4:
+      attributes:
+        id: PORT_GROUP_1_PINCFG4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG5:
+      attributes:
+        id: PORT_GROUP_1_PINCFG5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG6:
+      attributes:
+        id: PORT_GROUP_1_PINCFG6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG7:
+      attributes:
+        id: PORT_GROUP_1_PINCFG7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG8:
+      attributes:
+        id: PORT_GROUP_1_PINCFG8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG9:
+      attributes:
+        id: PORT_GROUP_1_PINCFG9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_10_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_10_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_11_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_11_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_12_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_12_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_13_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_13_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_14_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_14_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_15_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_15_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_16_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_16_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_17_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_17_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_18_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_18_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_19_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_19_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_21_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_21_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_22_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_22_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_23_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_23_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_24_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_24_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_25_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_25_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_26_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_26_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_27_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_27_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_28_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_28_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_29_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_29_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_2_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_2_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_30_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_30_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_31_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_31_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_3_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_3_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_4_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_4_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_5_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_5_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_6_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_6_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_7_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_7_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_8_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_8_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_9_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_9_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PMUX0:
+      attributes:
+        id: PORT_GROUP_1_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX1:
+      attributes:
+        id: PORT_GROUP_1_PMUX1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX10:
+      attributes:
+        id: PORT_GROUP_1_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX11:
+      attributes:
+        id: PORT_GROUP_1_PMUX11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX12:
+      attributes:
+        id: PORT_GROUP_1_PMUX12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX13:
+      attributes:
+        id: PORT_GROUP_1_PMUX13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX14:
+      attributes:
+        id: PORT_GROUP_1_PMUX14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX15:
+      attributes:
+        id: PORT_GROUP_1_PMUX15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX2:
+      attributes:
+        id: PORT_GROUP_1_PMUX2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX3:
+      attributes:
+        id: PORT_GROUP_1_PMUX3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX4:
+      attributes:
+        id: PORT_GROUP_1_PMUX4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX5:
+      attributes:
+        id: PORT_GROUP_1_PMUX5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX6:
+      attributes:
+        id: PORT_GROUP_1_PMUX6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX7:
+      attributes:
+        id: PORT_GROUP_1_PMUX7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX8:
+      attributes:
+        id: PORT_GROUP_1_PMUX8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX9:
+      attributes:
+        id: PORT_GROUP_1_PMUX9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_0:
+      attributes:
+        id: PORT_GROUP_2_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_1:
+      attributes:
+        id: PORT_GROUP_2_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC01
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_10:
+      attributes:
+        id: PORT_GROUP_2_PAD_10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC10
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_11:
+      attributes:
+        id: PORT_GROUP_2_PAD_11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC11
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_12:
+      attributes:
+        id: PORT_GROUP_2_PAD_12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC12
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_13:
+      attributes:
+        id: PORT_GROUP_2_PAD_13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC13
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_14:
+      attributes:
+        id: PORT_GROUP_2_PAD_14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC14
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_15:
+      attributes:
+        id: PORT_GROUP_2_PAD_15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC15
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_16:
+      attributes:
+        id: PORT_GROUP_2_PAD_16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC16
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_17:
+      attributes:
+        id: PORT_GROUP_2_PAD_17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC17
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_18:
+      attributes:
+        id: PORT_GROUP_2_PAD_18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC18
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_19:
+      attributes:
+        id: PORT_GROUP_2_PAD_19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC19
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_2:
+      attributes:
+        id: PORT_GROUP_2_PAD_2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC02
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_20:
+      attributes:
+        id: PORT_GROUP_2_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_21:
+      attributes:
+        id: PORT_GROUP_2_PAD_21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC21
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_22:
+      attributes:
+        id: PORT_GROUP_2_PAD_22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC22
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_23:
+      attributes:
+        id: PORT_GROUP_2_PAD_23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC23
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_24:
+      attributes:
+        id: PORT_GROUP_2_PAD_24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC24
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_25:
+      attributes:
+        id: PORT_GROUP_2_PAD_25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC25
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_26:
+      attributes:
+        id: PORT_GROUP_2_PAD_26
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC26
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_27:
+      attributes:
+        id: PORT_GROUP_2_PAD_27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC27
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_28:
+      attributes:
+        id: PORT_GROUP_2_PAD_28
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC28
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_3:
+      attributes:
+        id: PORT_GROUP_2_PAD_3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC03
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_30:
+      attributes:
+        id: PORT_GROUP_2_PAD_30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC30
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_31:
+      attributes:
+        id: PORT_GROUP_2_PAD_31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC31
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_4:
+      attributes:
+        id: PORT_GROUP_2_PAD_4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC04
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_5:
+      attributes:
+        id: PORT_GROUP_2_PAD_5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC05
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_6:
+      attributes:
+        id: PORT_GROUP_2_PAD_6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC06
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_7:
+      attributes:
+        id: PORT_GROUP_2_PAD_7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC07
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG0:
+      attributes:
+        id: PORT_GROUP_2_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG1:
+      attributes:
+        id: PORT_GROUP_2_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG10:
+      attributes:
+        id: PORT_GROUP_2_PINCFG10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG11:
+      attributes:
+        id: PORT_GROUP_2_PINCFG11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG12:
+      attributes:
+        id: PORT_GROUP_2_PINCFG12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG13:
+      attributes:
+        id: PORT_GROUP_2_PINCFG13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG14:
+      attributes:
+        id: PORT_GROUP_2_PINCFG14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG15:
+      attributes:
+        id: PORT_GROUP_2_PINCFG15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG16:
+      attributes:
+        id: PORT_GROUP_2_PINCFG16
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG17:
+      attributes:
+        id: PORT_GROUP_2_PINCFG17
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG18:
+      attributes:
+        id: PORT_GROUP_2_PINCFG18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG19:
+      attributes:
+        id: PORT_GROUP_2_PINCFG19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG2:
+      attributes:
+        id: PORT_GROUP_2_PINCFG2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG20:
+      attributes:
+        id: PORT_GROUP_2_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG21:
+      attributes:
+        id: PORT_GROUP_2_PINCFG21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG22:
+      attributes:
+        id: PORT_GROUP_2_PINCFG22
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG23:
+      attributes:
+        id: PORT_GROUP_2_PINCFG23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG24:
+      attributes:
+        id: PORT_GROUP_2_PINCFG24
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG25:
+      attributes:
+        id: PORT_GROUP_2_PINCFG25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG26:
+      attributes:
+        id: PORT_GROUP_2_PINCFG26
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG27:
+      attributes:
+        id: PORT_GROUP_2_PINCFG27
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG28:
+      attributes:
+        id: PORT_GROUP_2_PINCFG28
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG3:
+      attributes:
+        id: PORT_GROUP_2_PINCFG3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG30:
+      attributes:
+        id: PORT_GROUP_2_PINCFG30
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG31:
+      attributes:
+        id: PORT_GROUP_2_PINCFG31
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG4:
+      attributes:
+        id: PORT_GROUP_2_PINCFG4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG5:
+      attributes:
+        id: PORT_GROUP_2_PINCFG5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG6:
+      attributes:
+        id: PORT_GROUP_2_PINCFG6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG7:
+      attributes:
+        id: PORT_GROUP_2_PINCFG7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_10_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_10_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_11_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_11_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_12_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_12_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_13_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_13_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_14_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_14_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_15_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_15_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_16_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_16_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_17_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_17_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_18_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_18_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_19_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_19_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_21_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_21_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_22_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_22_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_23_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_23_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_24_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_24_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_25_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_25_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_26_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_26_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_27_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_27_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_28_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_28_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_2_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_2_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_30_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_30_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_31_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_31_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_3_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_3_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_4_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_4_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_5_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_5_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_6_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_6_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_7_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_7_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PMUX0:
+      attributes:
+        id: PORT_GROUP_2_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX1:
+      attributes:
+        id: PORT_GROUP_2_PMUX1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX10:
+      attributes:
+        id: PORT_GROUP_2_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX11:
+      attributes:
+        id: PORT_GROUP_2_PMUX11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX12:
+      attributes:
+        id: PORT_GROUP_2_PMUX12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX13:
+      attributes:
+        id: PORT_GROUP_2_PMUX13
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX14:
+      attributes:
+        id: PORT_GROUP_2_PMUX14
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX15:
+      attributes:
+        id: PORT_GROUP_2_PMUX15
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX2:
+      attributes:
+        id: PORT_GROUP_2_PMUX2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX3:
+      attributes:
+        id: PORT_GROUP_2_PMUX3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX5:
+      attributes:
+        id: PORT_GROUP_2_PMUX5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x55'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX6:
+      attributes:
+        id: PORT_GROUP_2_PMUX6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x5'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX7:
+      attributes:
+        id: PORT_GROUP_2_PMUX7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x55'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX8:
+      attributes:
+        id: PORT_GROUP_2_PMUX8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x66'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX9:
+      attributes:
+        id: PORT_GROUP_2_PMUX9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x6'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_0:
+      attributes:
+        id: PORT_GROUP_3_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_1:
+      attributes:
+        id: PORT_GROUP_3_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD01
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_10:
+      attributes:
+        id: PORT_GROUP_3_PAD_10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD10
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_11:
+      attributes:
+        id: PORT_GROUP_3_PAD_11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD11
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_12:
+      attributes:
+        id: PORT_GROUP_3_PAD_12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD12
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_20:
+      attributes:
+        id: PORT_GROUP_3_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_21:
+      attributes:
+        id: PORT_GROUP_3_PAD_21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD21
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_8:
+      attributes:
+        id: PORT_GROUP_3_PAD_8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD08
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PAD_9:
+      attributes:
+        id: PORT_GROUP_3_PAD_9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PD09
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG0:
+      attributes:
+        id: PORT_GROUP_3_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG1:
+      attributes:
+        id: PORT_GROUP_3_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG10:
+      attributes:
+        id: PORT_GROUP_3_PINCFG10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG11:
+      attributes:
+        id: PORT_GROUP_3_PINCFG11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG12:
+      attributes:
+        id: PORT_GROUP_3_PINCFG12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG20:
+      attributes:
+        id: PORT_GROUP_3_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG21:
+      attributes:
+        id: PORT_GROUP_3_PINCFG21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG8:
+      attributes:
+        id: PORT_GROUP_3_PINCFG8
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x2'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PINCFG9:
+      attributes:
+        id: PORT_GROUP_3_PINCFG9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x2'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_10_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_10_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_11_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_11_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_12_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_12_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_21_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_21_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_8_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_8_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PIN_9_USED:
+      attributes:
+        id: PORT_GROUP_3_PIN_9_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_3_PMUX0:
+      attributes:
+        id: PORT_GROUP_3_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PMUX10:
+      attributes:
+        id: PORT_GROUP_3_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PMUX4:
+      attributes:
+        id: PORT_GROUP_3_PMUX4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PMUX5:
+      attributes:
+        id: PORT_GROUP_3_PMUX5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_3_PMUX6:
+      attributes:
+        id: PORT_GROUP_3_PMUX6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM2_0_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM2_0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM2_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_0_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM2_0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: SERCOM2_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM2_0_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM2_0_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_1_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM2_1_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM2_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_1_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM2_1_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: SERCOM2_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM2_1_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM2_1_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_2_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM2_2_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM2_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_2_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM2_2_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: SERCOM2_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM2_2_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM2_2_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_CORE_CLOCK_ENABLE:
+      attributes:
+        id: SERCOM2_CORE_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM2_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SERCOM2_OTHER_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM2_OTHER_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM2_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM2_OTHER_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM2_OTHER_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: SERCOM2_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM2_OTHER_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM2_OTHER_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_CLOCK_ENABLE:
+      attributes:
+        id: TCC0_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_CLOCK_FREQUENCY:
+      attributes:
+        id: TCC0_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '120000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC0_MC0_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC0_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC0_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC0_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC1_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC1_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC1_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC1_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC1_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC1_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC2_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC2_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC2_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC2_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC2_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC2_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC3_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC3_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC3_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC3_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC3_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC3_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC3_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC3_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC3_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC4_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC4_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC4_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC4_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC4_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC4_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC4_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC4_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC4_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC5_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_MC5_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC5_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_MC5_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_MC5_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_MC5_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_MC5_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_MC5_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_MC5_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_OTHER_INTERRUPT_ENABLE:
+      attributes:
+        id: TCC0_OTHER_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TCC0_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC0_OTHER_INTERRUPT_HANDLER:
+      attributes:
+        id: TCC0_OTHER_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: TCC0_OTHER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    TCC0_OTHER_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TCC0_OTHER_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tcc0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_72_MODE:
+      attributes:
+        id: PIN_72_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_72_FUNCTION_TYPE:
+      attributes:
+        id: PIN_72_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: PDEC_QDI2
+          type: User
+        type: Values
+      type: String
+    PIN_72_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_72_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: G
+          type: User
+        type: Values
+      type: String
+    PIN_72_FUNCTION_NAME:
+      attributes:
+        id: PIN_72_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: HALL_C
+          type: User
+        type: Values
+      type: String
+    PIN_71_FUNCTION_NAME:
+      attributes:
+        id: PIN_71_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: HALL_B
+          type: User
+        type: Values
+      type: String
+    MCLK_APBC_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBC_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x20a0'
+          type: Dynamic
+        type: Values
+      type: String
+    PDEC_CLOCK_FREQUENCY:
+      attributes:
+        id: PDEC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_31_FREQ:
+      attributes:
+        id: GCLK_ID_31_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_31_CHEN:
+      attributes:
+        id: GCLK_ID_31_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PDEC_CLOCK_ENABLE:
+      attributes:
+        id: PDEC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: pdec
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_CLOCK_FREQUENCY:
+      attributes:
+        id: TC0_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_9_FREQ:
+      attributes:
+        id: GCLK_ID_9_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_9_CHEN:
+      attributes:
+        id: GCLK_ID_9_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_CLOCK_ENABLE:
+      attributes:
+        id: TC0_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TC0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_107_0_ENABLE:
+      attributes:
+        id: NVIC_107_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_INTERRUPT_ENABLE:
+      attributes:
+        id: TC0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_107_0_HANDLER:
+      attributes:
+        id: NVIC_107_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TC0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TC0_INTERRUPT_HANDLER:
+      attributes:
+        id: TC0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: TC0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_107_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_107_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TC0_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC1_CLOCK_FREQUENCY:
+      attributes:
+        id: TC1_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC1_CLOCK_ENABLE:
+      attributes:
+        id: TC1_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_2_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_2_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_13_FREQ:
+      attributes:
+        id: GCLK_ID_13_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_13_CHEN:
+      attributes:
+        id: GCLK_ID_13_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_2_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_2_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_71_FUNCTION_TYPE:
+      attributes:
+        id: PIN_71_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: PDEC_QDI1
+          type: User
+        type: Values
+      type: String
+    PIN_70_DRVSTR:
+      attributes:
+        id: PIN_70_DRVSTR
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    PORT_GROUP_2_DIR:
+      attributes:
+        id: PORT_GROUP_2_DIR
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_OUT:
+      attributes:
+        id: PORT_GROUP_2_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_70_MODE:
+      attributes:
+        id: PIN_70_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_70_FUNCTION_TYPE:
+      attributes:
+        id: PIN_70_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: PDEC_QDI0
+          type: User
+        type: Values
+      type: String
+    PIN_70_FUNCTION_NAME:
+      attributes:
+        id: PIN_70_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: HALL_A
+          type: User
+        type: Values
+      type: String
+    SERCOM0_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM0_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_7_FREQ:
+      attributes:
+        id: GCLK_ID_7_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_7_CHEN:
+      attributes:
+        id: GCLK_ID_7_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM0_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM0_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_46_0_ENABLE:
+      attributes:
+        id: NVIC_46_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM0_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM0_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_47_0_ENABLE:
+      attributes:
+        id: NVIC_47_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM0_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM0_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_48_0_ENABLE:
+      attributes:
+        id: NVIC_48_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM0_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM0_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_49_0_ENABLE:
+      attributes:
+        id: NVIC_49_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_46_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_46_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_47_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_47_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_48_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_48_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_49_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_49_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_46_0_HANDLER:
+      attributes:
+        id: NVIC_46_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM0_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_47_0_HANDLER:
+      attributes:
+        id: NVIC_47_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM0_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_48_0_HANDLER:
+      attributes:
+        id: NVIC_48_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM0_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_49_0_HANDLER:
+      attributes:
+        id: NVIC_49_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM0_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM1_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM1_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_8_FREQ:
+      attributes:
+        id: GCLK_ID_8_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_8_CHEN:
+      attributes:
+        id: GCLK_ID_8_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM1_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM1_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_50_0_ENABLE:
+      attributes:
+        id: NVIC_50_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM1_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM1_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_51_0_ENABLE:
+      attributes:
+        id: NVIC_51_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM1_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM1_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_52_0_ENABLE:
+      attributes:
+        id: NVIC_52_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM1_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM1_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_53_0_ENABLE:
+      attributes:
+        id: NVIC_53_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_50_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_50_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_51_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_51_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_52_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_52_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_53_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_53_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_50_0_HANDLER:
+      attributes:
+        id: NVIC_50_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM1_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_51_0_HANDLER:
+      attributes:
+        id: NVIC_51_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM1_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_52_0_HANDLER:
+      attributes:
+        id: NVIC_52_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM1_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_53_0_HANDLER:
+      attributes:
+        id: NVIC_53_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM1_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM5_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_35_FREQ:
+      attributes:
+        id: GCLK_ID_35_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_35_CHEN:
+      attributes:
+        id: GCLK_ID_35_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_66_0_ENABLE:
+      attributes:
+        id: NVIC_66_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_67_0_ENABLE:
+      attributes:
+        id: NVIC_67_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_68_0_ENABLE:
+      attributes:
+        id: NVIC_68_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_69_0_ENABLE:
+      attributes:
+        id: NVIC_69_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_66_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_66_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_67_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_67_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_68_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_68_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_69_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_69_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_66_0_HANDLER:
+      attributes:
+        id: NVIC_66_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM5_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_67_0_HANDLER:
+      attributes:
+        id: NVIC_67_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM5_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_68_0_HANDLER:
+      attributes:
+        id: NVIC_68_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM5_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_69_0_HANDLER:
+      attributes:
+        id: NVIC_69_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM5_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TC1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TC1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_108_0_ENABLE:
+      attributes:
+        id: NVIC_108_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    NVIC_108_0_HANDLER:
+      attributes:
+        id: NVIC_108_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TC1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_108_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_108_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC2_CLOCK_FREQUENCY:
+      attributes:
+        id: TC2_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_26_FREQ:
+      attributes:
+        id: GCLK_ID_26_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_26_CHEN:
+      attributes:
+        id: GCLK_ID_26_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC2_CLOCK_ENABLE:
+      attributes:
+        id: TC2_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TC2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_109_0_ENABLE:
+      attributes:
+        id: NVIC_109_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC2_INTERRUPT_ENABLE:
+      attributes:
+        id: TC2_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_109_0_HANDLER:
+      attributes:
+        id: NVIC_109_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TC2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TC2_INTERRUPT_HANDLER:
+      attributes:
+        id: TC2_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: TC2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_109_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_109_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC2_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TC2_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_21_MODE:
+      attributes:
+        id: PIN_21_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_21_FUNCTION_TYPE:
+      attributes:
+        id: PIN_21_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: EIC_EXTINT4
+          type: User
+        type: Values
+      type: String
+    PIN_21_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_21_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_21_FUNCTION_NAME:
+      attributes:
+        id: PIN_21_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: VA
+          type: User
+        type: Values
+      type: String
+    EVSYS_3_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_3_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_14_FREQ:
+      attributes:
+        id: GCLK_ID_14_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_14_CHEN:
+      attributes:
+        id: GCLK_ID_14_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_3_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_3_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_85_0_PRIORITY:
+      attributes:
+        id: NVIC_85_0_PRIORITY
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Combo
+    PIN_22_MODE:
+      attributes:
+        id: PIN_22_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_22_FUNCTION_TYPE:
+      attributes:
+        id: PIN_22_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: EIC_EXTINT5
+          type: User
+        type: Values
+      type: String
+    PIN_22_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_22_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_23_MODE:
+      attributes:
+        id: PIN_23_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_23_FUNCTION_TYPE:
+      attributes:
+        id: PIN_23_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: EIC_EXTINT6
+          type: User
+        type: Values
+      type: String
+    PIN_23_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_23_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_22_FUNCTION_NAME:
+      attributes:
+        id: PIN_22_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: VB
+          type: User
+        type: Values
+      type: String
+    PIN_23_FUNCTION_NAME:
+      attributes:
+        id: PIN_23_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: VC
+          type: User
+        type: Values
+      type: String
+    TC3_CLOCK_FREQUENCY:
+      attributes:
+        id: TC3_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC3_CLOCK_ENABLE:
+      attributes:
+        id: TC3_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC3_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TC3_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_110_0_ENABLE:
+      attributes:
+        id: NVIC_110_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC3_INTERRUPT_ENABLE:
+      attributes:
+        id: TC3_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tc3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_110_0_HANDLER:
+      attributes:
+        id: NVIC_110_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TC3_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TC3_INTERRUPT_HANDLER:
+      attributes:
+        id: TC3_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tc3
+            value: TC3_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_110_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_110_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC3_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TC3_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tc3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC4_CLOCK_FREQUENCY:
+      attributes:
+        id: TC4_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_30_FREQ:
+      attributes:
+        id: GCLK_ID_30_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_30_CHEN:
+      attributes:
+        id: GCLK_ID_30_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC4_CLOCK_ENABLE:
+      attributes:
+        id: TC4_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC4_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TC4_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_111_0_ENABLE:
+      attributes:
+        id: NVIC_111_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC4_INTERRUPT_ENABLE:
+      attributes:
+        id: TC4_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tc4
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_111_0_HANDLER:
+      attributes:
+        id: NVIC_111_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TC4_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    TC4_INTERRUPT_HANDLER:
+      attributes:
+        id: TC4_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: tc4
+            value: TC4_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_111_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_111_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC4_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: TC4_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: tc4
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_4_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_4_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_15_FREQ:
+      attributes:
+        id: GCLK_ID_15_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_15_CHEN:
+      attributes:
+        id: GCLK_ID_15_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_4_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_4_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_5_CLOCK_FREQUENCY:
+      attributes:
+        id: EVSYS_5_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_16_FREQ:
+      attributes:
+        id: GCLK_ID_16_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_16_CHEN:
+      attributes:
+        id: GCLK_ID_16_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_5_CLOCK_ENABLE:
+      attributes:
+        id: EVSYS_5_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '0'
+        canvasWidth: '0'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
